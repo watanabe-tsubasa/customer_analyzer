@@ -51,26 +51,26 @@ https://camp-fire.jp/projects/view/530144?list=channel_sparks
 - [for Raspberry Pi](https://qiita.com/watanabe-tsubasa/private/332d6d7a05d630b62c7b)：作成中
 - [for Jetson Nano](https://qiita.com/watanabe-tsubasa/private/ad4eacff22f5d583cb6f)：作成中
 
-### 利用方法
+## 利用方法
 
-#### ■ データの取得
+### ■ データの取得
 - コマンドプロンプトやターミナルで`customer_analyzer.py`のファイルをPythonで実行してください
 - カメラで顔が認識されると、PC上に画像が表示されます
 - 終了する際は、画像が表示されているウィンドウをクリックして`esc`キーを押してください
 - 不具合が起きた場合、コマンドプロンプトやターミナルをクリックして`control` + `C` で強制終了してください
 
-#### ■ カメラ位置の調整
+### ■ カメラ位置の調整
 - 実際に店頭に設置するなど、カメラの映像を見る際には`camera.py`のファイルをPythonで実行してください
 - 認識したいお客さまの顔が映るように、カメラ位置を調整してください
 - 終了する際は、画像が表示されているウィンドウをクリックして`esc`キーを押してください
 
-#### ■ 画像取得するカメラの変更
+### ■ 画像取得するカメラの変更
 PC備え付けのwebカメラやUSBカメラなど、複数のwebカメラがPCに接続されている場合、以下の手順で取得するwebカメラを選択することが可能です。
-##### camera.py
+#### camera.py
 - 7行目 `cap = cv2.VideoCapture(0)`0を1や2など他の数字に変えると、取得する映像を変更できます
 - 番号に該当するカメラが存在しない場合、エラーが出るので元の数字に戻してください。
 
-##### customer_analyzer.py
+#### customer_analyzer.py
 - 87行目 `cap = cv2.VideoCapture(args.input if args.input else 0)` 0を1や2など他の数字に変えると、取得する映像を変更できます
 - 番号に該当するカメラが存在しない場合、エラーが出るので元の数字に戻してください。
 

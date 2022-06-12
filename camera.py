@@ -4,7 +4,7 @@ import numpy as np
 
 
 def camera():
-    cap = cv2.VideoCapture(0)
+    cap = cv2.VideoCapture(0) #この番号を変更して、取得するカメラを変更
     isOpened = cap.isOpened()
     if not isOpened:
         return

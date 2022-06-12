@@ -84,7 +84,7 @@ genResult = [0] * 2
 ageResult = [0] * 8
 
 # Open a video file or an image file or a camera stream
-cap = cv2.VideoCapture(args.input if args.input else 0)
+cap = cv2.VideoCapture(args.input if args.input else 0) #取得するカメラ映像はelse以下の番号で調整
 padding = 20
 
 def add_data_csv(gender, age, elapsed_time):

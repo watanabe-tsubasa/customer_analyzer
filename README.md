@@ -53,7 +53,7 @@ https://camp-fire.jp/projects/view/530144?list=channel_sparks
 
 ## 利用方法
 
-**より詳細な利用方法は、OS別仕様書に記載します。**
+**Pythonでの実行などOSによって異なる部分があるので、詳細はOS別仕様書に記載します。**
 
 ### ■ データの取得
 - コマンドプロンプトやターミナルで`customer_analyzer.py`のファイルをPythonで実行してください

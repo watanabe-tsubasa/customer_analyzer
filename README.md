@@ -46,7 +46,7 @@ https://camp-fire.jp/projects/view/530144?list=channel_sparks
 ### ■ Pythonのインストール / OpenCVのインストール
 #### OS別仕様書
 利用環境に応じて、ご参照ください
-- [for windows](https://qiita.com/watanabe-tsubasa/items/15f84224b04ad754d2f9)：作成中
+- [for windows](https://qiita.com/watanabe-tsubasa/private/c49ebb0bab083242e91c)：作成中
 - [for mac](https://qiita.com/watanabe-tsubasa/private/2a245fc06a2f678ff584)：作成中
 - [for Raspberry Pi](https://qiita.com/watanabe-tsubasa/private/332d6d7a05d630b62c7b)：作成中
 - [for Jetson Nano](https://qiita.com/watanabe-tsubasa/private/ad4eacff22f5d583cb6f)：作成中
